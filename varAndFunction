@@ -1,0 +1,27 @@
+var a = 0;
+console.log(a);  // -> a = 0
+var a = 1;
+// may is qual   
+//var a;
+//a = 0;
+//console.log(a);
+//a = 1;
+/***************************2*******************************/
+function a(){
+  console.log("a1");
+}
+a();                  // -> will "a3"
+console.log(a);       // -> a()
+var a = 1;
+comsole.log(a);       // -> 1
+a = function(){
+  console.log("a2");
+}
+function a(){
+  console.log("a3");
+}
+
+/*********************************/
+//var and function is may goto top
+// but var is only it left but function is all
+//
